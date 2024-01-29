@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .box1 {
+        width: 250px;
+        margin: 0 auto;
+        border: 10px solid black;
+      }
+    input {
+        margin: 15px;
+        padding: 10px 25px;
+      }
+    button {
+        margin: 20px;
+        padding: 10px 35px;
+        background-color: rgb(93, 196, 38);
+        color: black;
+      }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <input type="text" name="first" id="first">
+        <input type="text" name="second" id="second"> <br> <br>
+        <button onclick="addition()">+</button>  
+        <button onclick="sub()">-</button> <br> <br> 
+        <button onclick="multification()">*</button> 
+        <button onclick="division()">/</button>
+    </div>
+    <script>
+        function addition() {
+                let first = Number(document.getElementById("first").value);
+                let second = Number(document.getElementById("second").value);
+                let total = Number(first + second);
+                alert(total);
+            }
+        function sub(){
+            let first = Number(document.getElementById("first").value);
+            let second = Number(document.getElementById("second").value);
+            let total = Number(first + second);
+            alert(total)
+        }
+    </script>
+</body>
+</html>

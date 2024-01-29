@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+    .box {
+        width: 250px;
+        margin: 0 auto;
+        border: 10px solid black;
+      }
+    input {
+        margin: 20px;
+      }
+    button {
+        margin: 20px;
+        padding: 10px 30px;
+        background-color: purple;
+        color: black;
+      }
+    </style>
+</head>
+<body>
+    <input type="text" name="one" id="one" value="">
+    <input type="text" name="two" id="two" value="">
+    <button onclick="substaction()">click me</button>
+    <script>
+        function substaction() {
+            let one = Number(document.getElementById("one").value);
+            let two = Number(document.getElementById("two").value);
+            let total = Number(one + two);
+            alert(total);
+        }
+    </script>
+</body>
+</html>

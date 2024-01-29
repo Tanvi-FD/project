@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02Task</title>
+    <style>
+      #main {
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+        margin: 10px auto;
+        text-align: center;
+      }
+      .box1 {
+        height: 300px;
+        width: 350px;
+        border: 2px solid blueviolet;
+        margin: 10px auto;
+      }
+      .box2 {
+        height: 200px;
+        width: 250px;
+        border: 2px solid blueviolet;
+        margin: 10px auto;
+      }
+      .box3 {
+        height: 100px;
+        width: 150px;
+        border: 2px solid blueviolet;
+        margin: 10px auto;
+      }
+      .box4 {
+        height: 50px;
+        width: 25px;
+        border: 2px solid blueviolet;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="box1">
+        <div class="box2">
+          <div class="box3">
+            <div class="box4"></div>
+            <button onclick="demo1()">Click me</button>
+          </div>
+          <button onclick="demo2()">Click me</button>
+        </div>
+        <button onclick="demo3()">Click me</button>
+      </div>
+      <button onclick="demo4()">Click me</button>
+    </div>
+
+    <script>
+      function demo1() {
+        document.querySelector(".box1").innerHTML = "hey buddy";
+      }
+      function demo2() {
+        document.querySelector(".box2").innerHTML = "hey friend";
+      }
+      function demo3() {
+        document.querySelector(".box3").innerHTML = "hey dost";
+      }
+      function demo4() {
+        document.querySelector(".box4").innerHTML = "hey bro!";
+      }
+    </script>
+  </body>
+</html>
