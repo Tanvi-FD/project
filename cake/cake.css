@@ -4,6 +4,7 @@
     --bg-color: #e8f3f1;
     --black: #2f4858;
     --card-color: #c0dbea;
+    --border: 0.1rem solid var(--card-color);
 }
 *{
     margin: 0;
@@ -200,6 +201,7 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
+/* cakes */
 .cakes .wrapper .cake-card{
     background-color: var(--card-color);
     padding: 3rem 2rem;
@@ -231,4 +233,14 @@ body{
     color: #fff;
     font-size: 1.5rem;
     text-decoration: line-through;
+ }
+ /* cheese-cakes */
+ .cheese-cakes .wrapper .cheese-card{
+    text-align: center;
+    background-color: #eac7c7;
+    padding: 2rem;
+    border: var(--border);
+ }
+ .cheese-cakes .wrapper .cheese-card:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
  }
