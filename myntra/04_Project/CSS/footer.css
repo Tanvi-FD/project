@@ -5,10 +5,11 @@
     font-family: sans-serif;
 }
 footer {
-    background-color: #ffffff;
+    background-color: #f8f4f4e4;
     color: rgb(65, 63, 63);
     justify-content: center;
     font-size: 15px;
+    margin-top: 30px;
   
   }
   
@@ -49,8 +50,8 @@ footer {
     margin-top: 8px;
   }
   .icon i{
-    font-size: 35px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 15px;
     padding: 10px 10px;
   }
   

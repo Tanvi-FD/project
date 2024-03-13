@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: bisque;
+            margin: 100px;
+        }
+        .container{
+            border: 1px solid maroon;
+            margin: 0 auto;
+            width: 50%;
+            height: 65vh;
+            display: flex;
+            align-self: center;
+            /* justify-content: center; */
+        }
+        .img-box{
+            border: 1px solid black;
+        }
+        .img-box a img{
+            height: 65vh;
+            width: 100%;
+        }
+        .bx{
+            padding: 0px 40px;
+            align-self: center;
+            text-align: center;
+            color: maroon;
+        }
+        a {
+            text-decoration: none;
+            color: maroon;
+        }
+        .bx-2{
+            padding: 20px 0px;
+            font-size: 14px;
+            position: relative;
+        }
+        .bx-2 input{
+            padding: 15px 15px;
+            border-radius: 50px;
+            /* text-align: center; */
+            border: 1px solid maroon;
+            background-color: bisque;
+        }
+        .ipt{
+            position: absolute;
+            top: 34px;
+            left: 46px;
+        }
+        input:valid ~ .ipt {
+        transform: translatey(-10px);
+      }
+        button{
+            padding: 10px 30px;
+            border-radius: 50px;
+            border: 1px solid maroon;
+            background-color: maroon;
+            color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="section-wrp">
+        <div class="container">
+            <div class="img-box">
+                <a href="../Html/01Index.html">
+                <img src="./img/IMG.jpg" alt="">
+            </a>
+            </div>
+            <div class="bx">
+                <div class="bx-1">
+                    <a href="./login.html" target="login"><strong>LOGIN</strong></a> 
+                    or
+                    <a href="./signin.html" target="signin"><strong>SIGNIN</strong></a>
+                </div>
+                <form action="">
+                <div class="bx-2">
+                    <input type="text" name="text" required /> <br>
+                    <span class="ipt">Phone number</span>
+                </div>
+                <div>
+                    <button>CONTINUE</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- <section id="form-section">
+        <div class="container">
+            <div class="box1">
+                <img src="../Form/img/IMG.jpg" alt="">
+            </div>
+            <div class="box2">
+                <a href="login.html" target="login.html"><strong>LOGIN</strong></a>
+                or
+                <a href="signin.html" target="signin.html"><strong>SIGNIN</strong></a> <br> <br>
+                <input type="text">
+                <p class="umn">Phone number or email address</p>
+                <br> <br>
+                <button>CONTINUE</button>
+            </div>
+        </div>
+    </section> -->
+    <script>
+
+    </script>
+</body>
+</html>

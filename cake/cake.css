@@ -270,6 +270,7 @@ body{
  }
  .cheese-cakes .wrapper .cheese-card .img img{
     height: 25rem;
+    width: 100%;
  }
  .cheese-cakes .wrapper .cheese-card .content h3{
     color: white;
@@ -393,6 +394,9 @@ body{
     color: var(--main-color);
     padding: 0.8rem 0;
 }
+.contents{
+    height: 100%;
+}
 .contact .contents{
     display: flex;
     background-color: var(--black);
@@ -400,8 +404,7 @@ body{
     gap: 1rem;
 }
 .contact .contents iframe{
-    height: 100%;
-    width: 50px;
+    /* height: 100%; */
     flex: 1 1 45rem;
     object-fit: cover;
 }
@@ -435,4 +438,49 @@ body{
     width: 100%;
     padding: 2rem;
     font-size: 1.8rem;
+}
+footer{
+    background-color: var(--black);
+    text-align: center;
+}
+.footer .social-media{
+    padding: 1rem 0;
+}
+.footer .social-media a{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: white;
+    border: var(--border);
+    margin: 0.5rem;
+}
+.footer .social-media a:hover{
+    background-color: var(--main-color);
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: 0.7rem 2rem;
+    color: white;
+    border: var(--border);
+    font-size: 2rem;
+}
+.footer .links a:hover{
+    background-color: var(--main-color);
+}
+.footer .credits{
+    font-size: 2rem;
+    color: white;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credits span{
+    color: var(--main-color);
 }
