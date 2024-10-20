@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 16vh;
+}
+.header .logo img{
+    height: 95px;
+    border-radius: 50%;
+}
+.header .text-box img{
+    margin-left: 130px;
+}
+.header .navbar a {
+    color: #e8f3f1;
+    font-size: 20px;
+    margin-left: 20px; 
+    text-decoration: none;
+}
+ .header .text-box {
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+}
+
+.header .text-box .navbar {
+    margin-left: auto; 
+}
+

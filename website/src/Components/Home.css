@@ -1,0 +1,16 @@
+.main-banner .item1 {
+  background-image: url("../../assets/images/banner-01.jpg");
+}
+.main-banner .item2 {
+  background-image: url("../../assets/images/banner-02.jpg");
+}
+.main-banner .item3 {
+  background-image: url("../../assets/images/banner-03.jpg");
+}
+.main-banner .item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 20% 320px 20%;
+  margin-top: 0px;
+}
